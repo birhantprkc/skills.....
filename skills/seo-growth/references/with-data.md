@@ -52,7 +52,7 @@ Worked example — the archetypes one property extracted from a 90-day Search Co
 
 | Archetype | Evidence |
 |---|---|
-| **Person-attached emerging convention** | The site's best page by a wide margin at ~2.3% CTR, plus five more from the same cluster in its top 30. A technique named after a known person, caught early, compounds for months. |
+| **Person-attached emerging convention** | The site's best page by a wide margin at ~2.3% CTR. A technique named after a known person, caught early, compounds for months. |
 | **"[Tool] for [profession]" guides** | Highest-CTR template on the site: 3.0%, 4.1%, 4.8% across different professions. Builder-mid-workflow intent, natural funnel. Repeatable — new professions keep appearing. |
 | **Named-technique guides you can own** | A technique guide ranked well, and the query for its **PDF** converted at 12.3% CTR — readers explicitly asking for a downloadable next step. When a technique guide ships, add a checklist/PDF CTA. |
 
@@ -83,9 +83,9 @@ Pull the page's **query mix**, then classify:
 The single most common misdiagnosis. Four query families score ~zero clicks **by design**:
 
 - **LLM fan-out** — an assistant decomposed a question into sub-searches. No human, no click,
-  ever. One verified family: 41 queries shaped `"evaluate the software company {competitor} on
-  {category}"`, **exactly 0 clicks** — while ranking position 4.7–5.8, which means AI assistants
-  are finding and citing the pages. That is a win that scores zero forever.
+  ever. One verified templated competitor-evaluation query family recorded **0% CTR** while
+  ranking position 4.7–5.8, which means AI assistants are finding and citing the pages. That is
+  a win that scores zero forever.
 - **Competitor-navigational** — "[competitor] by [parent company]" means they want the
   competitor's own site. Unwinnable.
 - **Brand-navigational** — your homepage should win it, not this page.

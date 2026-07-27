@@ -14,9 +14,8 @@ front-loaded: ship while you own it.**
 
 ## The pattern to look for
 
-The internal shorthand is **"the karpathy-md pattern"**, after the convention that produced one
-property's crown-jewel page — its best performer by a wide margin at ~2.3% CTR, with five more
-pages from the same cluster in the site's top 30.
+The **person-attached emerging-artifact pattern** produced one property's crown-jewel page —
+its best performer by a wide margin at ~2.3% CTR.
 
 The shape:
 

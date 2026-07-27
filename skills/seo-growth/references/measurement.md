@@ -61,18 +61,18 @@ Screen every low-CTR page against these **before** calling it a problem. This is
 clicks KPI from lying to you.
 
 1. **LLM fan-out.** An AI assistant decomposed a user's question into sub-searches. There is no
-   human in the loop, so these score zero clicks *by design, permanently*. Verified example: 41
-   queries shaped `"evaluate the software company {v0|framer|bolt} on ai ui generator"`, 812
-   impressions, **exactly 0 clicks** — at position 4.7–5.8. Ranking there means assistants are
-   pulling your page as a source. **It is a win that will look like failure to anyone grading
-   on clicks.** Track it on an AI-visibility scorecard instead, never on the clicks KPI.
+   human in the loop, so these score zero clicks *by design, permanently*. A verified templated
+   competitor-evaluation query family recorded **0% CTR** at position 4.7–5.8. Ranking there
+   means assistants are pulling your page as a source. **It is a win that will look like failure
+   to anyone grading on clicks.** Track it on an AI-visibility scorecard instead, never on the
+   clicks KPI.
 2. **Competitor-navigational.** "[competitor] by [parent company]" — the user wants the
    competitor's own site. Unwinnable, no matter what you do to the page.
 3. **Brand-navigational.** Your own brand terms where the homepage should win. A blog page
    "underperforming" on your brand name is correct behavior.
 4. **Anonymized tail.** GSC withholds long-tail queries for privacy. When a page's *visible*
-   impressions are <10% of its total, its tail is undiagnosable — one page showed 27 visible
-   impressions were well under 1% of the real total. You cannot diagnose what you cannot see.
+   impressions are <10% of its total, its tail is undiagnosable — one page's visible impressions
+   were well under 1% of its real total. You cannot diagnose what you cannot see.
 
 **Never delete, retitle, or count these against a page.** Write your own verified list down, or
 every review will rediscover and re-triage the same non-problems.

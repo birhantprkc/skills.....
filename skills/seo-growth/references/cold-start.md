@@ -7,7 +7,7 @@ no content at all.
 term. Not with better writing, not with more pages, not with more patience. It can only win a
 term **while competition is still thin.** So a cold start does not "do SEO" in the ordinary
 sense — it hunts emerging terms and lands on them before anyone else. That is the entire
-entire cold-start strategy. Everything below is how.
+cold-start strategy. Everything below is how.
 
 Validated on two separate emerging terms months apart. On the second, the pillar became the
 site's #1 clicked page **within 7 days of launch**. Neither would have been possible against an
@@ -39,12 +39,12 @@ technique — with a natural next step into what you sell or run. A news reader 
 options has no next step.
 
 Search Console confirms this empirically. On one property, news and announcement pieces each
-earned five-to-six figures of impressions and nearly nothing else:
+earned a very large impression base relative to the rest of the site and nearly nothing else:
 
 | Page shape | CTR |
 |---|---|
-| "Google kills <tool>" news guide | 0.4% |
-| "<Tool> complete guide" (launch news) | 0.2% |
+| "Google kills [tool]" news guide | 0.4% |
+| "[Tool] complete guide" (launch news) | 0.2% |
 | "Best [category] 2026" roundup | **0.04%** |
 
 Those are not near-misses. They are the shape failing. **A cold start that chases news gets

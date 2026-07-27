@@ -1,8 +1,7 @@
 # Why these rules exist
 
 Every rule in this skill came from a production failure or a production result on two content
-properties run by AI Builder Club — one developer-education site, one design-tool site — under
-continuous, instrumented operation.
+properties under continuous, instrumented operation.
 
 **On the numbers below:** absolute traffic figures are withheld. Ratios, CTRs, positions, and
 thresholds are stated as actually observed, because those are the parts that transfer. A rule
@@ -44,7 +43,7 @@ repeatable losers. The shapes mattered far more than the topics.
 
 | Archetype | What the data showed |
 |---|---|
-| **Person-attached emerging convention** | The site's best page by a wide margin, at **~2.3% CTR**, with five more pages from the same cluster in the site's top 30. A technique named after a known person, caught early, compounds for months. |
+| **Person-attached emerging convention** | The site's best page by a wide margin, at **~2.3% CTR**. A technique named after a known person, caught early, compounds for months. |
 | **"[Tool] for [profession]" guides** | Highest-CTR template on the site: **3.0%**, **4.1%**, **4.8%** across different professions. Builder-mid-workflow intent with a native next step. Repeatable, because new professions keep appearing. |
 | **Named-technique guide + lead magnet** | A technique guide ranked well, and the query for its *PDF* converted at **12.3% CTR** — readers explicitly asking for a downloadable next step. |
 
@@ -62,7 +61,7 @@ empirically before anyone reasoned it out.
 
 ## Concentration is health, not risk
 
-On the design-tool property a single page earned roughly **45% of all blog clicks**, with the
+On Property B a single page earned roughly **45% of all blog clicks**, with the
 next page at about a third of that. The instinct to diversify away from that dependence was
 wrong, and acting on it would have been expensive.
 
@@ -97,8 +96,8 @@ title never contained that word.
 
 ## LLM fan-out scores zero clicks by design
 
-A family of **41 queries** shaped `"evaluate the software company {competitor} on {category}"`
-ran site-wide at **exactly 0 clicks** — while ranking at **position 4.7–5.8**.
+A templated competitor-evaluation query family ran site-wide at **0% CTR** while ranking at
+**position 4.7–5.8**.
 
 These are AI assistants decomposing a user's question into sub-searches. There is no human in
 the loop to click. Ranking there means assistants are pulling the pages as sources: a genuine

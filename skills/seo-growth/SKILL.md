@@ -8,9 +8,8 @@ description: >
   "should we build a cluster or one page", "what do we write next", "we get impressions
   but no clicks", "our traffic plateaued despite publishing", whether to chase a head
   term at all, or turning any of it into recurring automation. Also use when asked why
-  an SEO effort stalled despite consistent output. NOT for writing an article
-  writing an article, keyword expansion mechanics, or auditing a single tactic for
-  penalty risk.
+  an SEO effort stalled despite consistent output. NOT for writing an article,
+  keyword expansion mechanics, or auditing a single tactic for penalty risk.
 ---
 
 # /seo-growth — first-party SEO growth method
@@ -20,10 +19,9 @@ is given to the wrong one of those two situations.** A site with no rankings and
 breadwinner page need opposite behavior. Advice that ignores which you are in is how efforts
 stall despite consistent output.
 
-Distilled from two content properties run in production by AI Builder Club — one
-developer-education site, one design-tool site — and the Search Console reads that produced
-each rule. This is **first-party method**: narrower than a general playbook, and more
-trustworthy for it. Every rule traces to the failure or result behind it in
+Distilled from two content properties run in production and the Search Console reads that
+produced each rule. This is **a first-party method**: narrower than a general playbook, and
+more trustworthy for it. Every rule traces to the failure or result behind it in
 `references/why-these-rules.md`. Absolute traffic figures are withheld; the ratios and
 thresholds are as observed.
 
@@ -73,9 +71,9 @@ it is the most common failure mode in this whole area.
 2. **Score an emerging term on position, a mature one on clicks.** Backwards, and the metric
    tells you to quit the land-grab exactly as the ground becomes valuable — or leaves a page at
    0.53% CTR untouched for a month because its rank looked fine.
-3. **Impressions are not progress.** The trap is a page pulling six figures of impressions at
-   0.2% CTR. It feels like traction and converts nothing. Rank work by click opportunity from
-   *human* queries.
+3. **Impressions are not progress.** The trap is a page drawing a very large impression base
+   relative to the rest of the site at 0.2% CTR. It feels like traction and converts nothing.
+   Rank work by click opportunity from *human* queries.
 4. **Concentration is the goal, not the problem.** One page earning ~45% of clicks is healthy.
    Compound the winner before adding breadth.
 5. **What you double down on is derived, not chosen.** Read your own GSC for which *shapes*
@@ -110,11 +108,10 @@ it is the most common failure mode in this whole area.
 
 ## Scope honesty
 
-Derived from B2B / developer-tool / creator-education content SEO on low-to-mid authority
-domains. The two-playbook split, the measurement discipline, and the emerging-term method
-transfer broadly. The specific archetypes in `with-data.md` do not — they are one property's,
-and yours must be extracted from your own data. Local, e-commerce, and YMYL were never tested
-here; say so rather than extrapolating.
+Derived from B2B content SEO on low-to-mid authority domains. The two-playbook split, the
+measurement discipline, and the emerging-term method transfer broadly. The specific archetypes
+in `with-data.md` do not — they are one property's, and yours must be extracted from your own
+data. Local, e-commerce, and YMYL were never tested here; say so rather than extrapolating.
 
 ## What this skill deliberately does not cover
 
