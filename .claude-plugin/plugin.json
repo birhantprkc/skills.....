@@ -1,6 +1,6 @@
 {
   "name": "skills",
-  "description": "Build loop engineers: a file-based knowledge base your agents read/write (loops), plus a codebase harness (dev-local stack, e2e gate, an isolated cloud box per agent via crabbox, and verify-before-ship) so loops can run, test, and ship code autonomously.",
+  "description": "Build loop engineers: a file-based knowledge base your agents read/write (loops), plus a codebase harness (dev-local stack, e2e gate, an isolated cloud box per agent via crabbox, and verify-before-ship) so loops can run, test, and ship code autonomously. Plus an SEO growth playbook distilled from two production content properties.",
   "version": "0.1.0",
   "author": {
     "name": "Jason Zhou (AI Jason)",
@@ -21,6 +21,11 @@
     "visualization",
     "delegation",
     "tmux",
-    "multi-agent"
+    "multi-agent",
+    "seo",
+    "content-strategy",
+    "search-console",
+    "keyword-research",
+    "growth"
   ]
 }

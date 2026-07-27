@@ -21,6 +21,11 @@ Plus standalone utility skills:
 - **Open agent teams** — delegate tasks to *any* CLI agent (claude, codex, grok, aider, …)
   running in a detached tmux session, with a race-safe done-signal protocol, multi-turn
   iteration, and a CLAUDE.md delegation-rules template (coordinator/executor roles).
+- **SEO growth** — where to point SEO effort, as two playbooks: a **cold start** with no
+  rankings and no authority, and an **existing site with data**. Distilled from two content
+  properties we run in production — including the emerging-term method that took a brand-new
+  pillar page to the site's #1 clicked page in 7 days, and the failures that cost us a head
+  term. Ships a loop template so it can run on a schedule.
 
 ## Loop engineer & Codebase harness
 
