@@ -97,6 +97,12 @@ Run it again any time to add another loop.
 |---|---|
 | **`visual-flow-gif`** | You want an article, workflow, or architecture turned into a static PNG + animated GIF flow diagram (JSON spec → Python/Pillow renderer). |
 
+**Context** — keep your agent context sharp
+
+| Skill | Use it when… |
+|---|---|
+| **`agent-context-audit`** | Auditing a repo's agent context (CLAUDE.md, docs, skills, tool/MCP designs) against Anthropic's Claude 5 context-engineering guidance — finds overconstraint, conflicts, redundancy, stale facts, and missing gotchas; reports findings with rewrites, then applies approved fixes. |
+
 **Delegation** — run other agents as executors
 
 | Skill | Use it when… |
@@ -132,6 +138,7 @@ skills/                                a Claude Code plugin (also a marketplace)
     ├── crabbox-setup/                (harness) — isolated cloud box per agent
     ├── verifier-setup/               (harness) — generates a repo's /verify skill  (assets/verify.template.md)
     ├── visual-flow-gif/              (visuals) — JSON spec → PNG + GIF  (scripts/ assets/ references/)
+    ├── agent-context-audit/          (context) — audit CLAUDE.md/docs/skills/tools vs Claude 5 guidance
     └── open-agent-teams/             (delegation) — any CLI agent in tmux  (scripts/tdel · references/CLAUDE.delegation-template.md)
 ```
 
