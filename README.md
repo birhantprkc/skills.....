@@ -16,16 +16,20 @@ Two flagship skill sets (more to come):
 
 Plus standalone utility skills:
 
-- **Visual flow GIF** — turn an article, workflow, or architecture into a static PNG +
-  animated GIF flow diagram (JSON spec → local Python/Pillow renderer).
-- **Open agent teams** — delegate tasks to *any* CLI agent (claude, codex, grok, aider, …)
+- **[agent-context-audit](https://github.com/AI-Builder-Club/skills/blob/main/skills/agent-context-audit/SKILL.md)** — audit your agent context (CLAUDE.md, codebase docs, skills,
+  tool/MCP designs) against Anthropic's Claude 5 context-engineering guidance — finds
+  overconstraint, conflicting instructions, redundancy, stale facts, and missing gotchas;
+  reports findings with concrete rewrites, then applies approved fixes.
+- **[Open agent teams](https://github.com/AI-Builder-Club/skills/blob/main/skills/open-agent-teams/SKILL.md)** — delegate tasks to *any* CLI agent (claude, codex, grok, aider, …)
   running in a detached tmux session, with a race-safe done-signal protocol, multi-turn
   iteration, and a CLAUDE.md delegation-rules template (coordinator/executor roles).
-- **SEO growth** — where to point SEO effort, as two playbooks: a **cold start** with no
+- **[SEO growth](https://github.com/AI-Builder-Club/skills/blob/main/skills/seo-growth/SKILL.md)** — where to point SEO effort, as two playbooks: a **cold start** with no
   rankings and no authority, and an **existing site with data**. Distilled from two content
   properties we run in production — including the emerging-term method that took a brand-new
   pillar page to the site's #1 clicked page in 7 days, and the failures that cost us a head
   term. Ships a loop template so it can run on a schedule.
+- **[Visual flow GIF](https://github.com/AI-Builder-Club/skills/blob/main/skills/visual-flow-gif/SKILL.md)** — turn an article, workflow, or architecture into a static PNG +
+  animated GIF flow diagram (JSON spec → local Python/Pillow renderer).
 
 ## Loop engineer & Codebase harness
 
@@ -79,35 +83,35 @@ Run it again any time to add another loop.
 
 | Skill | Use it when… |
 |---|---|
-| **`setup-codebase-harness`** | Onboarding a repo to agent-driven dev — the master that orchestrates the four below. |
-| **`dev-local-setup`** | You need a one-command local dev stack (`scripts/dev-local.sh up`). |
-| **`e2e-setup`** | The repo has no (or weak) e2e — add a real per-PR test gate. |
-| **`crabbox-setup`** | Loops ship code **in parallel** — give each agent its own isolated **cloud** stack (one laptop can't run N). The cloud counterpart to dev-local. |
-| **`verifier-setup`** | Make a repo's work verifiable — scaffolds a repo-specific **`/verify`** skill (a fresh sub-agent drives the app, captures screenshot/video proof, opens the PR with it embedded). Ensures dev-local + the browser driver exist first. |
+| **[`setup-codebase-harness`](https://github.com/AI-Builder-Club/skills/blob/main/skills/setup-codebase-harness/SKILL.md)** | Onboarding a repo to agent-driven dev — the master that orchestrates the four below. |
+| **[`dev-local-setup`](https://github.com/AI-Builder-Club/skills/blob/main/skills/dev-local-setup/SKILL.md)** | You need a one-command local dev stack (`scripts/dev-local.sh up`). |
+| **[`e2e-setup`](https://github.com/AI-Builder-Club/skills/blob/main/skills/e2e-setup/SKILL.md)** | The repo has no (or weak) e2e — add a real per-PR test gate. |
+| **[`crabbox-setup`](https://github.com/AI-Builder-Club/skills/blob/main/skills/crabbox-setup/SKILL.md)** | Loops ship code **in parallel** — give each agent its own isolated **cloud** stack (one laptop can't run N). The cloud counterpart to dev-local. |
+| **[`verifier-setup`](https://github.com/AI-Builder-Club/skills/blob/main/skills/verifier-setup/SKILL.md)** | Make a repo's work verifiable — scaffolds a repo-specific **`/verify`** skill (a fresh sub-agent drives the app, captures screenshot/video proof, opens the PR with it embedded). Ensures dev-local + the browser driver exist first. |
 
 **Loops** — the shared knowledge base
 
 | Skill | Use it when… |
 |---|---|
-| **`new-loop`** | You want a new loop/workstream the agent owns (bootstraps the knowledge base on first run). |
+| **[`new-loop`](https://github.com/AI-Builder-Club/skills/blob/main/skills/new-loop/SKILL.md)** | You want a new loop/workstream the agent owns (bootstraps the knowledge base on first run). |
 
 **Visuals** — turn source material into diagrams
 
 | Skill | Use it when… |
 |---|---|
-| **`visual-flow-gif`** | You want an article, workflow, or architecture turned into a static PNG + animated GIF flow diagram (JSON spec → Python/Pillow renderer). |
+| **[`visual-flow-gif`](https://github.com/AI-Builder-Club/skills/blob/main/skills/visual-flow-gif/SKILL.md)** | You want an article, workflow, or architecture turned into a static PNG + animated GIF flow diagram (JSON spec → Python/Pillow renderer). |
 
 **Context** — keep your agent context sharp
 
 | Skill | Use it when… |
 |---|---|
-| **`agent-context-audit`** | Auditing a repo's agent context (CLAUDE.md, docs, skills, tool/MCP designs) against Anthropic's Claude 5 context-engineering guidance — finds overconstraint, conflicts, redundancy, stale facts, and missing gotchas; reports findings with rewrites, then applies approved fixes. |
+| **[`agent-context-audit`](https://github.com/AI-Builder-Club/skills/blob/main/skills/agent-context-audit/SKILL.md)** | Auditing a repo's agent context (CLAUDE.md, docs, skills, tool/MCP designs) against Anthropic's Claude 5 context-engineering guidance — finds overconstraint, conflicts, redundancy, stale facts, and missing gotchas; reports findings with rewrites, then applies approved fixes. |
 
 **Delegation** — run other agents as executors
 
 | Skill | Use it when… |
 |---|---|
-| **`open-agent-teams`** | You want to delegate work to any CLI agent (claude, codex, grok, pi, opencode) in an observable, detached tmux session — start, wait, iterate, and stop via the bundled `tdel` helper. Ships a `CLAUDE.md` delegation-rules template (coordinator vs executor) in `references/`. |
+| **[`open-agent-teams`](https://github.com/AI-Builder-Club/skills/blob/main/skills/open-agent-teams/SKILL.md)** | You want to delegate work to any CLI agent (claude, codex, grok, pi, opencode) in an observable, detached tmux session — start, wait, iterate, and stop via the bundled `tdel` helper. Ships a `CLAUDE.md` delegation-rules template (coordinator vs executor) in `references/`. |
 
 After setup, each session the agent reads `CLAUDE.md` + the relevant domain README, does work,
 writes artifacts, and appends to `LOG.md`. For code changes it works in an isolated worktree and verifies via `/verify` before shipping.
@@ -139,6 +143,7 @@ skills/                                a Claude Code plugin (also a marketplace)
     ├── verifier-setup/               (harness) — generates a repo's /verify skill  (assets/verify.template.md)
     ├── visual-flow-gif/              (visuals) — JSON spec → PNG + GIF  (scripts/ assets/ references/)
     ├── agent-context-audit/          (context) — audit CLAUDE.md/docs/skills/tools vs Claude 5 guidance
+    ├── seo-growth/                   (growth) — cold-start + existing-site SEO playbooks
     └── open-agent-teams/             (delegation) — any CLI agent in tmux  (scripts/tdel · references/CLAUDE.delegation-template.md)
 ```
 
